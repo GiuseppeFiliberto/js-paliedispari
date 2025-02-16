@@ -14,4 +14,4 @@ function checkPalindrom(word){
     else {
         return false;
     }
-}
+} 
