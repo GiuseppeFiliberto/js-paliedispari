@@ -4,7 +4,7 @@
 // Procediamo a creare prima la funzione che ci serve
 
 function checkPalindrom(word){
-    let reverseWord = " ";
+    let reverseWord = "";
     for (let i = word.lenght - 1; i >= 0; i--){
         reverseWord += word[i];
     }
@@ -16,5 +16,9 @@ function checkPalindrom(word){
     }
 } 
 
-const wordTest = "Hello"
-console.log(checPalindrom(wordTest));
+const wordTest = "racecar"
+console.log(checkPalindrom(wordTest));
+
+const wordTest2 = "racecar"
+console.log(checkPalindrom(wordTest2));
+
