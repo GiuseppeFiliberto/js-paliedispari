@@ -15,3 +15,6 @@ function checkPalindrom(word){
         return false;
     }
 } 
+
+const wordTest = "Hello"
+console.log(checPalindrom(wordTest));
